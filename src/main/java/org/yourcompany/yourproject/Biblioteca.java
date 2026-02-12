@@ -1,15 +1,19 @@
 package org.yourcompany.yourproject;
 
+import java.util.ArrayList;
+
 public class Biblioteca {
+
     private ArrayList<Socio> socios = new ArrayList<>();
     private ArrayList<Bibliotecario> bibliotecarios = new ArrayList<>();
 
-    public Biblioteca() {}
+    public Biblioteca() {
+    }
 
     public ArrayList<Socio> darSocios() {
         return socios;
     }
-    
+
     public ArrayList<Bibliotecario> darBibliotecarios() {
         return bibliotecarios;
     }
