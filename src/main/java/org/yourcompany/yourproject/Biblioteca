@@ -7,11 +7,11 @@ public class Biblioteca {
     public Biblioteca() {}
 
     public ArrayList<Socio> darSocios() {
-        return socios
+        return socios;
     }
     
     public ArrayList<Bibliotecario> darBibliotecarios() {
-        return bibliotecarios
+        return bibliotecarios;
     }
 
     public void agregarSocio(Socio socio) {
